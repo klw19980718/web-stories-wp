@@ -41,6 +41,8 @@ export const MaskTypes = {
   BLOB_6: 'blob-6',
   BLOB_7: 'blob-7',
   BLOB_8: 'blob-8',
+  CROSS: 'cross',
+  ARROW: 'arrow',
 };
 
 const CLIP_PATHS = {
@@ -72,6 +74,10 @@ const CLIP_PATHS = {
     'M 0.868 0.311 C 0.825 0.118 0.605 0.138 0.509 0.132 C 0.279 0.148 0.217 0.295 0.093 0.595 C -0.030 0.895 0.363 0.890 0.466 0.839 C 0.524 0.810 0.695 0.737 0.730 0.710 C 0.766 0.683 0.912 0.503 0.868 0.311 Z',
   [MaskTypes.BLOB_8]:
     'M 0.122 0.334 C 0.241 0.263 0.165 0.188 0.193 0.117 C 0.283 -0.162 0.619 0.117 0.744 0.334 C 0.869 0.550 0.674 0.688 0.549 0.764 C 0.425 0.840 0.395 0.784 0.311 0.670 C 0.226 0.556 0.076 0.623 0.024 0.539 C -0.028 0.454 0.004 0.404 0.122 0.334 Z',
+  [MaskTypes.CROSS]:
+    'M 0.000 0.861 L 0.861 0.000 l 0.089 0.083 L 0.083 0.950 z M 0.089 0.000 l 0.461 0.461 L 0.461 0.556 0.000 0.089 z m 0.561 0.561 l 0.322 0.322 -0.083 0.089 -0.322 -0.322 z',
+  [MaskTypes.ARROW]:
+    'M 0.889 0.433 V 0.494 C 0.913 0.494 0.935 0.480 0.945 0.458 C 0.955 0.435 0.950 0.409 0.933 0.391 L 0.889 0.433 Z  M 0.571 0.932 L 0.876 0.626 L 0.790 0.540 L 0.485 0.846 L 0.571 0.932 Z  M 0.000 0.494 H 0.889 V 0.372 H 0.000 V 0.494 Z  M 0.933 0.391 L 0.578 0.014 L 0.489 0.097 L 0.844 0.475 L 0.933 0.391 Z',
 };
 
 export const MASKS = [
@@ -163,6 +169,18 @@ export const MASKS = [
     type: MaskTypes.BLOB_8,
     name: __('Blob 8', 'web-stories'),
     path: CLIP_PATHS[MaskTypes.BLOB_8],
+    ratio: 1,
+  },
+  {
+    type: MaskTypes.CROSS,
+    name: __('Cross', 'web-stories'),
+    path: CLIP_PATHS[MaskTypes.CROSS],
+    ratio: 1,
+  },
+  {
+    type: MaskTypes.ARROW,
+    name: __('Arrow', 'web-stories'),
+    path: CLIP_PATHS[MaskTypes.ARROW],
     ratio: 1,
   },
 ];
