@@ -64,10 +64,6 @@
           "focalY": 50
         },
         {
-          "x": 136,
-          "y": 471,
-          "width": 298,
-          "height": 219,
           "opacity": 100,
           "flip": {
             "vertical": false,
@@ -75,59 +71,25 @@
           },
           "rotationAngle": 0,
           "lockAspectRatio": true,
+          "backgroundColor": {
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            }
+          },
+          "type": "shape",
+          "x": 127,
+          "y": 469,
+          "width": 464,
+          "height": 464,
           "scale": 100,
           "focalX": 50,
           "focalY": 50,
-          "resource": {
-            "type": "image",
-            "mimeType": "image/png",
-            "src": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page1_grid.png",
-            "width": 220,
-            "height": 163,
-            "posterId": 0,
-            "id": 325,
-            "title": "beauty_page1_grid",
-            "alt": "beauty_page1_grid",
-            "local": false,
-            "sizes": {
-              "medium": {
-                "file": "beauty_page1_grid-300x222.png",
-                "width": 300,
-                "height": 222,
-                "mime_type": "image/png",
-                "source_url": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page1_grid-300x222.png"
-              },
-              "thumbnail": {
-                "file": "beauty_page1_grid-150x150.png",
-                "width": 150,
-                "height": 150,
-                "mime_type": "image/png",
-                "source_url": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page1_grid-150x150.png"
-              },
-              "web_stories_thumbnail": {
-                "file": "beauty_page1_grid-150x111.png",
-                "width": 150,
-                "height": 111,
-                "mime_type": "image/png",
-                "source_url": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page1_grid-150x111.png"
-              },
-              "full": {
-                "file": "beauty_page1_grid.png",
-                "width": 533,
-                "height": 395,
-                "mime_type": "image/png",
-                "source_url": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page1_grid.png"
-              }
-            }
-          },
           "mask": {
-            "type": "rectangle",
-            "name": "Rectangle",
-            "path": "M 0,0 1,0 1,1 0,1 0,0 Z",
-            "ratio": 1
+            "type": "grid-8"
           },
-          "type": "image",
-          "id": "9dab070f-7678-4570-8d6a-c52bf087860c"
+          "id": "ced64ac6-bf2b-4367-9539-032d7f82319d"
         },
         {
           "opacity": 100,
@@ -158,8 +120,8 @@
           "id": "c2cb4adc-8209-4441-83f3-94fb5dba59eb"
         },
         {
-          "x": 50,
-          "y": 445,
+          "x": 49,
+          "y": 442,
           "width": 337,
           "height": 165,
           "opacity": 100,
@@ -1898,10 +1860,6 @@
           }
         },
         {
-          "x": 1,
-          "y": 360,
-          "width": 411,
-          "height": 354,
           "opacity": 100,
           "flip": {
             "vertical": false,
@@ -1909,64 +1867,31 @@
           },
           "rotationAngle": 0,
           "lockAspectRatio": true,
+          "backgroundColor": {
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            }
+          },
+          "type": "shape",
+          "width": 464,
+          "height": 464,
           "scale": 100,
           "focalX": 50,
           "focalY": 50,
-          "resource": {
-            "type": "image",
-            "mimeType": "image/png",
-            "src": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page5_grid.png",
-            "width": 188,
-            "height": 163,
-            "posterId": 0,
-            "id": 374,
-            "title": "beauty_page5_grid",
-            "alt": "beauty_page5_grid",
-            "local": false,
-            "sizes": {
-              "medium": {
-                "file": "beauty_page5_grid-300x260.png",
-                "width": 300,
-                "height": 260,
-                "mime_type": "image/png",
-                "source_url": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page5_grid-300x260.png"
-              },
-              "thumbnail": {
-                "file": "beauty_page5_grid-150x150.png",
-                "width": 150,
-                "height": 150,
-                "mime_type": "image/png",
-                "source_url": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page5_grid-150x150.png"
-              },
-              "web_stories_thumbnail": {
-                "file": "beauty_page5_grid-150x130.png",
-                "width": 150,
-                "height": 130,
-                "mime_type": "image/png",
-                "source_url": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page5_grid-150x130.png"
-              },
-              "full": {
-                "file": "beauty_page5_grid.png",
-                "width": 375,
-                "height": 325,
-                "mime_type": "image/png",
-                "source_url": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page5_grid.png"
-              }
-            }
-          },
           "mask": {
-            "type": "rectangle",
-            "name": "Rectangle",
-            "path": "M 0,0 1,0 1,1 0,1 0,0 Z",
-            "ratio": 1
+            "type": "grid-8"
           },
-          "type": "image",
-          "id": "58d034a2-aa25-4299-a845-2f100a14c460"
+          "basedOn": "ced64ac6-bf2b-4367-9539-032d7f82319d",
+          "id": "c9c8e69b-640c-4931-b51b-3d8e09db8a84",
+          "x": -23,
+          "y": 357
         },
         {
-          "x": 71.5,
+          "x": 72.5,
           "y": 317,
-          "width": 270,
+          "width": 273,
           "height": 270,
           "opacity": 100,
           "flip": {
@@ -2124,7 +2049,7 @@
         },
         {
           "x": 140,
-          "y": 4,
+          "y": -2,
           "width": 131,
           "height": 100,
           "opacity": 100,
@@ -2167,7 +2092,7 @@
         },
         {
           "x": 25,
-          "y": 107,
+          "y": 101,
           "width": 362,
           "height": 57,
           "opacity": 100,
@@ -2219,7 +2144,7 @@
         },
         {
           "x": 39,
-          "y": 171,
+          "y": 157,
           "width": 334,
           "height": 44,
           "opacity": 100,
@@ -2280,10 +2205,6 @@
           }
         },
         {
-          "x": 140,
-          "y": 249,
-          "width": 272,
-          "height": 426,
           "opacity": 100,
           "flip": {
             "vertical": false,
@@ -2291,65 +2212,32 @@
           },
           "rotationAngle": 0,
           "lockAspectRatio": true,
+          "backgroundColor": {
+            "color": {
+              "r": 243,
+              "g": 217,
+              "b": 225
+            }
+          },
+          "type": "shape",
+          "width": 464,
+          "height": 464,
           "scale": 100,
           "focalX": 50,
           "focalY": 50,
-          "resource": {
-            "type": "image",
-            "mimeType": "image/png",
-            "src": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page6_grid.png",
-            "width": 133,
-            "height": 210,
-            "posterId": 0,
-            "id": 383,
-            "title": "beauty_page6_grid",
-            "alt": "beauty_page6_grid",
-            "local": false,
-            "sizes": {
-              "medium": {
-                "file": "beauty_page6_grid-190x300.png",
-                "width": 190,
-                "height": 300,
-                "mime_type": "image/png",
-                "source_url": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page6_grid-190x300.png"
-              },
-              "thumbnail": {
-                "file": "beauty_page6_grid-150x150.png",
-                "width": 150,
-                "height": 150,
-                "mime_type": "image/png",
-                "source_url": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page6_grid-150x150.png"
-              },
-              "web_stories_thumbnail": {
-                "file": "beauty_page6_grid-150x236.png",
-                "width": 150,
-                "height": 236,
-                "mime_type": "image/png",
-                "source_url": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page6_grid-150x236.png"
-              },
-              "full": {
-                "file": "beauty_page6_grid.png",
-                "width": 266,
-                "height": 419,
-                "mime_type": "image/png",
-                "source_url": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page6_grid.png"
-              }
-            }
-          },
           "mask": {
-            "type": "rectangle",
-            "name": "Rectangle",
-            "path": "M 0,0 1,0 1,1 0,1 0,0 Z",
-            "ratio": 1
+            "type": "grid-8"
           },
-          "type": "image",
-          "id": "3d78ac27-2fab-4f05-93c0-420c619f1a58"
+          "basedOn": "ced64ac6-bf2b-4367-9539-032d7f82319d",
+          "id": "0bbd87d7-b8df-4e4e-a6b5-ef26bcccdd05",
+          "x": 92,
+          "y": 215
         },
         {
           "x": 0,
-          "y": 367,
-          "width": 297,
-          "height": 212,
+          "y": 356,
+          "width": 280,
+          "height": 204,
           "opacity": 100,
           "flip": {
             "vertical": false,
@@ -2374,17 +2262,17 @@
           "id": "2c9f4240-6d4e-4c26-a62b-bb628a0ae34e"
         },
         {
-          "x": 48,
-          "y": 288,
-          "width": 288,
-          "height": 222,
+          "x": 27,
+          "y": 263,
+          "width": 297,
+          "height": 230,
           "opacity": 100,
           "flip": {
             "vertical": false,
             "horizontal": false
           },
           "rotationAngle": 0,
-          "lockAspectRatio": false,
+          "lockAspectRatio": true,
           "scale": 100,
           "focalX": 50,
           "focalY": 50,
@@ -2454,8 +2342,8 @@
           "id": "9fe9caa0-d046-40d2-8e22-a8a88fbbdbfd"
         },
         {
-          "x": 259,
-          "y": 522,
+          "x": 255,
+          "y": 540,
           "width": 116,
           "height": 43,
           "opacity": 100,
@@ -2482,8 +2370,8 @@
           "id": "d9cf345f-dd84-49c9-b652-20e31cd6d03a"
         },
         {
-          "x": 243,
-          "y": 533,
+          "x": 239,
+          "y": 551,
           "width": 150,
           "height": 19,
           "opacity": 100,
@@ -2544,7 +2432,7 @@
         },
         {
           "x": 92,
-          "y": 522,
+          "y": 510,
           "width": 189,
           "height": 21,
           "opacity": 100,
@@ -2596,7 +2484,7 @@
         },
         {
           "x": 92,
-          "y": 542,
+          "y": 530,
           "width": 239,
           "height": 16,
           "opacity": 100,
@@ -2697,10 +2585,6 @@
           "isDefaultBackground": true
         },
         {
-          "x": 52,
-          "y": 112,
-          "width": 361,
-          "height": 409,
           "opacity": 100,
           "flip": {
             "vertical": false,
@@ -2708,66 +2592,26 @@
           },
           "rotationAngle": 0,
           "lockAspectRatio": true,
+          "backgroundColor": {
+            "color": {
+              "r": 216,
+              "g": 221,
+              "b": 204
+            }
+          },
+          "type": "shape",
+          "width": 410,
+          "height": 410,
           "scale": 100,
           "focalX": 50,
           "focalY": 50,
-          "resource": {
-            "type": "image",
-            "mimeType": "image/png",
-            "src": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page7_grid.png",
-            "width": 220,
-            "height": 249,
-            "posterId": 0,
-            "id": 394,
-            "title": "beauty_page7_grid",
-            "alt": "beauty_page7_grid",
-            "local": false,
-            "sizes": {
-              "medium": {
-                "file": "beauty_page7_grid-266x300.png",
-                "width": 266,
-                "height": 300,
-                "mime_type": "image/png",
-                "source_url": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page7_grid-266x300.png"
-              },
-              "thumbnail": {
-                "file": "beauty_page7_grid-150x150.png",
-                "width": 150,
-                "height": 150,
-                "mime_type": "image/png",
-                "source_url": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page7_grid-150x150.png"
-              },
-              "web-stories-poster-landscape": {
-                "file": "beauty_page7_grid-687x696.png",
-                "width": 687,
-                "height": 696,
-                "mime_type": "image/png",
-                "source_url": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page7_grid-687x696.png"
-              },
-              "web_stories_thumbnail": {
-                "file": "beauty_page7_grid-150x169.png",
-                "width": 150,
-                "height": 169,
-                "mime_type": "image/png",
-                "source_url": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page7_grid-150x169.png"
-              },
-              "full": {
-                "file": "beauty_page7_grid.png",
-                "width": 687,
-                "height": 776,
-                "mime_type": "image/png",
-                "source_url": "http://localhost:8899/wp-content/uploads/2020/05/beauty_page7_grid.png"
-              }
-            }
-          },
           "mask": {
-            "type": "rectangle",
-            "name": "Rectangle",
-            "path": "M 0,0 1,0 1,1 0,1 0,0 Z",
-            "ratio": 1
+            "type": "grid-8"
           },
-          "type": "image",
-          "id": "73ba67e8-9d2b-4ca0-9790-1f1a55cd7e5f"
+          "basedOn": "0bbd87d7-b8df-4e4e-a6b5-ef26bcccdd05",
+          "id": "f1512b97-b949-4804-9c8b-063a99d1f12b",
+          "x": 52,
+          "y": 113
         },
         {
           "width": 177,
